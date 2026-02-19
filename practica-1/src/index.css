@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { font-family: Inter, system-ui, Arial; margin: 0; padding: 16px; background: #f5f7fb; color: #111827 }
+.app { max-width: 900px; margin: 0 auto; }
+h1 { text-align: center; }
+.list { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; margin-top: 16px }
+.card { background: white; border-radius: 8px; padding: 12px; box-shadow: 0 2px 8px rgba(16,24,40,0.06) }
+.loader { text-align: center; margin-top: 12px }
+.controls { display:flex; justify-content:center; margin:18px 0 }
+button { background:#2563eb; color:white; border:none; padding:8px 14px; border-radius:6px; cursor:pointer }
+button[disabled] { background:#9ca3af; cursor:default }
+.error { background: #fee2e2; color:#b91c1c; padding:8px; border-radius:6px; margin: 8px 0 }
